@@ -12,7 +12,7 @@ public class Prueba_UD3 {
 
         if (entrada != null) {
 
-            if (entrada[0] == '+') {
+            if (entrada[0] == '+') {  // Creamos una copia del array original quitando la primera posición
                 char[] entradaCopia = new char[entrada.length - 1];
                 System.arraycopy(entrada, 1, entradaCopia, 0, entrada.length - 1);
                 entrada = entradaCopia;
