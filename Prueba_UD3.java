@@ -1,8 +1,8 @@
 
 public class Prueba_UD3 {
 
-    private static final String NULL_MESSAGE = "La entrada no puede ser null";
-    private static final String NEGATIVE_INT_MESSAGE = "No se permiten enteros negativos";
+    public static final String NULL_MESSAGE = "La entrada no puede ser null";
+    public static final String NEGATIVE_INT_MESSAGE = "No se permiten enteros negativos";
 
     public static int convertToEnteroPositivo(char[] entrada) throws NumberFormatException, Exception {
 
